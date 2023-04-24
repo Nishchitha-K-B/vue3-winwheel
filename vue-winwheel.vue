@@ -80,6 +80,10 @@ export default {
 				]
 			}
 		}
+	,
+	stopAtAngle: {
+      type: Number,
+    },
   },
   data () {
     return {
@@ -130,7 +134,7 @@ export default {
         var prizeNumber = Math.floor(Math.random() * this.segments.length) // or just get from Backend
         var stopAt = 360 / this.segments.length * prizeNumber - 360 / this.segments.length / 2 // center pin
         // var stopAt = 360 / this.segments.length * prizeNumber - Math.floor(Math.random() * 60) //random location
-        this.theWheel.animation.stopAngle = stopAt
+        this.theWheel.animation.stopAngle = this.stopAtAngle
         this.theWheel.startAnimation()
         this.wheelSpinning = false
       }
