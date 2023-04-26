@@ -25,5 +25,6 @@
   "homepage": "https://github.com/Nishchitha-K-B/vue3-winwheel#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "devDependencies": {}
 }
