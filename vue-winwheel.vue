@@ -176,6 +176,7 @@ export default {
 </script>
 
 <style scoped>
+
 .vue-winwheel {
 	text-align: center;
 }
