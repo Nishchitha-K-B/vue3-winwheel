@@ -1,24 +1,29 @@
 {
-	"name": "vue3-win-wheel",
-	"version": "1.0.0",
-	"author": {
-		"name": "Nishchitha-K-B",
-		"email": "nishchithagowda0905@gmail.com"
-	},
-	"main": "./vue-winwheel.vue",
-	"keywords": [
-		"vue",
-		"vue-winwheel",
-		"vue winwheel",
-		"vue roulette",
-		"vue lucky spin"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Nishchitha-K-B/vue3-winwheel.git"
-	},
-	"license": "MIT",
-	"dependencies": {
-		"gsap": "^2.0.2"
-	}
+  "name": "vue3-win-wheel",
+  "version": "1.0.0",
+  "author": "Nishchitha-K-B <nishchithagowda0905@gmail.com>",
+  "main": "./vue-winwheel.vue",
+  "keywords": [
+    "vue",
+    "vue-winwheel",
+    "vue winwheel",
+    "vue roulette",
+    "vue lucky spin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishchitha-K-B/vue3-winwheel.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^2.0.2"
+  },
+  "description": "a winwheel for vuejs based on http://dougtesting.net/home",
+  "bugs": {
+    "url": "https://github.com/Nishchitha-K-B/vue3-winwheel/issues"
+  },
+  "homepage": "https://github.com/Nishchitha-K-B/vue3-winwheel#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
