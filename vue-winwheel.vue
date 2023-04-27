@@ -4,7 +4,7 @@
 				<h1>Vue-Winwheel</h1>
 				<div class="wheel-wrapper">
 					<div class="canvas-wrapper">
-						<canvas id="canvas" width="310" height="310">
+						<canvas id="canvas" width="500" height="500">
 							<p style="{color: white}" align="center">Sorry, your browser doesn't support canvas. Please try Google Chrome.</p>
 						</canvas>
 					</div>
